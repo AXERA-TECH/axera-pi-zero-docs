@@ -1,6 +1,6 @@
 # Pulsar2 User Manual
 
-[Web 预览](TODO)
+[Web 预览](https://axera-pi-zero-docs-cn.readthedocs.io/zh-cn/latest/index.html)
 
 ## 1. 项目背景
 
