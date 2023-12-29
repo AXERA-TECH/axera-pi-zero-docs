@@ -27,16 +27,14 @@ git clone https://github.com/AXERA-TECH/axera-pi-zero-docs.git
 ├── build
 ├── requirements.txt
 └── source
-    ├── appendix
     ├── conf.py
-    ├── doc_update_info
+    ├── doc_appendix.md
+    ├── doc_guide_advanced.md
+    ├── doc_guide_quick_start.md
+    ├── doc_introduction.md
+    ├── doc_update_info.md
     ├── index.rst
-    ├── media
-    ├── other_tools
-    ├── pulsar2
-    ├── user_guides_advanced
-    ├── user_guides_config
-    └── user_guides_quick
+    └── media
 ```
 
 ### 2.2 编译
