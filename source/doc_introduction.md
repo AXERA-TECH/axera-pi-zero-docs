@@ -33,7 +33,7 @@
 <p><font size="4"><b>高性价比</font></b></p>
 <ul>
 <li>内置双核 64 位高性能 ARM CPU。</li>
-<li>内置 AI 算力 8.0 TOPs INT4 或 2.0 TOPs INT8。</li>
+<li>内置 AI 算力 9.6 TOPs INT4 或 2.4 TOPs INT8。</li>
 <li>内置 AI-ISP，支持 500 万像素，支持 3A、3DNR、HDR、图像增强、去雾功能和鱼眼矫正算法。</li>
 <li>内置 256MB LPDDR4、Audio Codec、ePHY。</li>
 </ul>
