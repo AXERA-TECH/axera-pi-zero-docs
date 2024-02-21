@@ -15,7 +15,7 @@
 | SoC | AX620Q |
 | 处理器 | 2 x Arm Cortex-A53@1.2GHz |
 | ISP能力 | 最大支持 5MP@30fps<br />AI-ISP&T-ISP<br />支持 3A<br />AI-3DNR<br />AIRLTM<br />两帧HDR</li></li>图像增强<br />去雾功能<br />鱼眼矫正 |
-| AI能力 | 8.0TOPs@INT4<br />2.0TOPs@INT8 |
+| AI能力 | 9.6TOPs@INT4<br />2.4TOPs@INT8 |
 | 操作系统 | Linux |
 | 深度学习框架 | 支持 ONNX、PyTorch、Caffe、PaddlePaddle 等模型部署 |
 | 视频编码能力 | H.264/H.265<br />5MP@30fps+1080P@30fps+720P@30fps |
