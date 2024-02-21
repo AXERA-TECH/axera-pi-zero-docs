@@ -16,7 +16,12 @@ AXera-Pi Zero
   doc_introduction.md
   doc_guide_quick_start.md
   doc_guide_advanced.md
-
+  doc_guide_video.md
+  doc_guide_algorithm.md
+  doc_guide_demo.md
+  doc_guide_library.md
+  doc_guide_LAN.md
+  
 .. toctree::
   :maxdepth: 1
   :numbered:
