@@ -30,7 +30,7 @@
 <br />
 <font size="5">NFS的挂载</font><br />
 
-1.点击<a href="https://pan.baidu.com/s/1_6znRhsRQqpaT93Ld2VT5Q?pwd=Zero">此链接</a>下载nfs服务器工具<br />
+1.点击<a href="https://pan.baidu.com/s/1ZhK5TAt4H6BPRn4bDA1oXA">此链接</a>下载nfs服务器工具<br />
 提取码：Zero<br />
 
 2.将安装包内的exports文件替换掉nfs所在的路径下
