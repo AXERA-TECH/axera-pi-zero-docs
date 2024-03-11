@@ -26,4 +26,4 @@
 | <div style="text-align: center;">GND</div> |<div style="background-color:black ;width: 50px;height: 15px;text-align: center;"><font color="#FFFFFF">39</div></font>|<div style="background-color:rgb(19,79,25) ;width: 50px;height: 15px;text-align: center;"><font color="#FFFFFF">40</div></font>| <div style="text-align: center;">ADC_AIN0</div> |
 
 <font size="5">以下为实物图，箭头所指位置是pin为1的引脚<br /></font>
-<img src="Y:/share/axera-pi-zero-docs/source/media/PIN.png" width="640" height="480"/><br />
+![](./media/PIN.png)

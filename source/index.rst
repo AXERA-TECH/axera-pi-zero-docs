@@ -14,6 +14,7 @@ AXera-Pi Zero
 
   doc_update_info.md
   doc_introduction.md
+  doc_guide_FAQ.md
   doc_guide_quick_start.md
   doc_guide_advanced.md
   doc_guide_video.md
@@ -21,7 +22,6 @@ AXera-Pi Zero
   doc_guide_demo.md
   doc_guide_library.md
   doc_guide_LAN.md
-  doc_guide_FAQ.md
   
   
 #.. toctree::
