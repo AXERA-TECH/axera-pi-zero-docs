@@ -21,11 +21,13 @@ AXera-Pi Zero
   doc_guide_demo.md
   doc_guide_library.md
   doc_guide_LAN.md
+  doc_guide_FAQ.md
   
-.. toctree::
-  :maxdepth: 1
-  :numbered:
-  :caption: 附录
-  :name: appendix
+  
+#.. toctree::
+ # :maxdepth: 1
+ # :numbered:
+ # :caption: 附录
+ # :name: appendix
 
-  doc_appendix.md
+ # doc_appendix.md

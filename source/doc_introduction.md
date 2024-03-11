@@ -2,7 +2,7 @@
 
 <font size="5"><b>爱芯派Zero</font></b>
 
-爱芯派 Zero（AXera-Pi Zero）搭载爱芯元智第四代智能视觉芯片 AX620Q，该芯片集成新一代智眸 4.0 AI-ISP，最高支持 5MP@30fps 实时真黑光，同时集成新一代通元 4.0 高性能、场景优化的 NPU 引擎，使得产品在低功耗、高画质、智能处理和分析等方面行业领先。爱芯派 Pico 提供稳定易用的 SDK 软件开发包，方便用户低成本评估、
+爱芯派Zero（AXera-Pi Zero）搭载爱芯元智第四代智能视觉芯片 AX620Q，该芯片集成新一代智眸 4.0 AI-ISP，最高支持 5MP@30fps 实时真黑光，同时集成新一代通元 4.0 高性能、场景优化的 NPU 引擎，使得产品在低功耗、高画质、智能处理和分析等方面行业领先。爱芯派 Pico 提供稳定易用的 SDK 软件开发包，方便用户低成本评估、
 二次开发和快速量产。帮助用户在智能家居应用和其他 AIOT 项目中发挥更大的价值。
 
 ![](./media/10.png)
@@ -25,9 +25,9 @@
 | 内存 | SIP 256MiB LPDDR4X |
 | 存储 | SPI NAND 256MiB |
 | 接口 | 1 x MIPI CSI 4-lane<br />1 x 10/100 RJ45 网口<br />1 x USB2.0<br />1 x TF 卡槽<br />RTC 电池接口<br />GPIO接口<br />2 x 按键（BOOT、RESET）<br />1 x LED<br />DC 5V（USB 供电） |
-| 环境 | 工作温度：TBD<br />湿度：TBD |
-| 功耗 | TBD |
-| 结构 | 21 x 72 mm |
+| 环境 | 工作温度：-40°C ~ 85°C<br /> |
+| 功耗 | 1.2W |
+| 结构 | 65 × 30 mm |
 
 <p><font size="5"><b>特点</font></b></p>
 <p><font size="4"><b>高性价比</font></b></p>
