@@ -28,7 +28,7 @@
 <br />
 <font color="red"><b>(PS:也可通过DHCP自动分配IP)</font></b>
 
-点击<a href="https://pan.baidu.com/s/1_6znRhsRQqpaT93Ld2VT5Q?pwd=Zero">此处</a>下载putty<br />
+点击<a href="https://pan.baidu.com/s/1ZhK5TAt4H6BPRn4bDA1oXA">此处</a>下载putty<br />
 提取码：Zero
 
 若有其他的问题，可进群询问。<br />
