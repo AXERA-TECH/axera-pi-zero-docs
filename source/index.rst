@@ -16,10 +16,9 @@ AXera-Pi Zero
   doc_introduction.md
   doc_guide_hardware.md
   doc_guide_advanced.md
-  doc_guide_video.md
   doc_guide_algorithm.md
   doc_guide_demo.md
   doc_guide_library.md
   doc_guide_lan.md
   doc_guide_faq.md
-  
+
