@@ -21,8 +21,8 @@ import sphinxcontrib.mermaid
 # -- Project information -----------------------------------------------------
 
 project = 'AXera-Pi Zero'
-copyright = '2023, AXera 爱芯元智'
-author = 'AXera-Tech'
+copyright = '2024, 深圳市亿思朴科技有限公司'
+author = 'EXP'
 
 # The full version, including alpha/beta/rc tags
 release = 'V1.0'
