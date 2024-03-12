@@ -1,5 +1,6 @@
 # 硬件接口资料
 
+## 管脚定义
 <title>Document</title>
 
 | <div style="text-align: center;">PIN NAME</div> | <div style="text-align: center;">Pin#</div> | <div style="text-align: center;">Pin#</div> | <div style="text-align: center;">PIN NAME</div> | 
@@ -25,5 +26,6 @@
 | <div style="text-align: center;">GPIO1_A1</div> |<div style="background-color:rgb(19,79,25) ;width: 50px;height: 15px;text-align: center;"><font color="#FFFFFF">37</div></font>|<div style="background-color:rgb(19,79,25) ;width: 50px;height: 15px;text-align: center;"><font color="#FFFFFF">38</div></font>| <div style="text-align: center;">PWM06</div> |
 | <div style="text-align: center;">GND</div> |<div style="background-color:black ;width: 50px;height: 15px;text-align: center;"><font color="#FFFFFF">39</div></font>|<div style="background-color:rgb(19,79,25) ;width: 50px;height: 15px;text-align: center;"><font color="#FFFFFF">40</div></font>| <div style="text-align: center;">ADC_AIN0</div> |
 
-<font size="5">以下为实物图，箭头所指位置是pin为1的引脚<br /></font>
+## 实物图
+箭头所指位置是 **Pin1** 的引脚
 ![](./media/PIN.png)

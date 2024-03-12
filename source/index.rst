@@ -7,27 +7,19 @@ AXera-Pi Zero
 =======================================
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
   :numbered:
   :caption: 目录
   :name: 123
 
   doc_update_info.md
   doc_introduction.md
-  doc_guide_FAQ.md
-  doc_guide_quick_start.md
+  doc_guide_hardware.md
   doc_guide_advanced.md
   doc_guide_video.md
   doc_guide_algorithm.md
   doc_guide_demo.md
   doc_guide_library.md
-  doc_guide_LAN.md
+  doc_guide_lan.md
+  doc_guide_faq.md
   
-  
-#.. toctree::
- # :maxdepth: 1
- # :numbered:
- # :caption: 附录
- # :name: appendix
-
- # doc_appendix.md

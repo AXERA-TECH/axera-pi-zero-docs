@@ -1,13 +1,15 @@
 # AX Pi Zero 概述
 
-<font size="5"><b>爱芯派Zero</font></b>
+## 爱芯派Zero
 
-爱芯派Zero（AXera-Pi Zero）搭载爱芯元智第四代智能视觉芯片 AX620Q，该芯片集成新一代智眸 4.0 AI-ISP，最高支持 5MP@30fps 实时真黑光，同时集成新一代通元 4.0 高性能、场景优化的 NPU 引擎，使得产品在低功耗、高画质、智能处理和分析等方面行业领先。爱芯派 Pico 提供稳定易用的 SDK 软件开发包，方便用户低成本评估、
+**爱芯派Zero（AXera-Pi Zero）** 搭载爱芯元智第四代智能视觉芯片 **[AX620Q](https://www.axera-tech.com/Product/127.html)** ，该芯片集成新一代智眸 4.0 AI-ISP，最高支持 5MP@30fps 实时真黑光，同时集成新一代通元 4.0 高性能、场景优化的 NPU 引擎，使得产品在低功耗、高画质、智能处理和分析等方面行业领先。
+
+爱芯派 Zero 提供稳定易用的 SDK 软件开发包，方便用户低成本评估、
 二次开发和快速量产。帮助用户在智能家居应用和其他 AIOT 项目中发挥更大的价值。
 
 ![](./media/10.png)
 
-<font size="5"><b>规格</font></b>
+## 规格
 <title>Document</title>
 
 | AXera-Pi Zero | 规格 | 
@@ -29,29 +31,29 @@
 | 功耗 | 1.2W |
 | 结构 | 65 × 30 mm |
 
-<p><font size="5"><b>特点</font></b></p>
+## 特点
 <p><font size="4"><b>高性价比</font></b></p>
 <ul>
-<li>内置双核 64 位高性能 ARM CPU。</li>
-<li>内置 AI 算力 9.6 TOPs INT4 或 2.4 TOPs INT8。</li>
-<li>内置 AI-ISP，支持 500 万像素，支持 3A、3DNR、HDR、图像增强、去雾功能和鱼眼矫正算法。</li>
+<li>内置双核 64 位高性能 ARM CPU;</li>
+<li>内置 AI 算力 9.6 TOPs INT4 或 2.4 TOPs INT8;</li>
+<li>内置 AI-ISP，支持 500 万像素，支持 3A、3DNR、HDR、图像增强、去雾功能和鱼眼矫正算法;</li>
 <li>内置 256MB LPDDR4、Audio Codec、ePHY。</li>
 </ul>
 
 <font size="4"><b>易部署</font></b>
 <ul>
-<li>USB Type-C 供电&调试。</li>
-<li>Linux 系统。</li>
-<li>丰富扩展接口。</li>
+<li>USB Type-C 供电&调试;</li>
+<li>Linux 系统;</li>
+<li>丰富扩展接口;</li>
 <li>软硬件资料丰富，开发者社区活跃。</li>
 </ul>
 
-<font size="5"><b>应用场景</font></b>
+## 应用场景
 <ul>
-<li>智能 IOT。</li>
-<li>智能机器人。</li>
-<li>智能家具。</li>
-<li>智慧教育。</li>
-<li>智慧社区。</li>
-<li>智能制造。</li>
+<li>智能AIOT</li>
+<li>智能机器人</li>
+<li>智能家居</li>
+<li>智慧教育</li>
+<li>智慧社区</li>
+<li>智能制造</li>
 </ul>

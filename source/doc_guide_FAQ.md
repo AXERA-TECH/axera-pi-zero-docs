@@ -1,6 +1,6 @@
 # FAQ
 
-<font size="5"><b>进行IP修改</font></b>
+## IP 修改
 
 1.通过Type-C线将爱芯派Zero与电脑进行连接<br />
 ![](./media/FAQ/FAQ_1.png)
@@ -30,6 +30,8 @@
 
 点击<a href="https://pan.baidu.com/s/1ZhK5TAt4H6BPRn4bDA1oXA">此处</a>下载putty<br />
 提取码：Zero
+
+## 社区资料
 
 若有其他的问题，可进群询问。<br />
 QQ:139953715

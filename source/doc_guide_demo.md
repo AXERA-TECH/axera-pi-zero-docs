@@ -1,6 +1,6 @@
 # 应用开发 Demo
 
-<font size="5">FRTDemo的使用</font><br />
+## FRTDemo 的使用
 
 1.使用Type-C将爱芯派Zero与电脑连接，可通过两种方式进入终端
 	<p style="text-indent:2em;">a.通过串口直接进入</p>
@@ -28,7 +28,8 @@
 若需FRTDemo源码，请点击<a href="https://github.com/AXERA-TECH/ax620q_bsp_sdk">此处</a>进行查看<br />
 <br />
 <br />
-<font size="5">NFS的挂载</font><br />
+
+## NFS 的挂载
 
 1.点击<a href="https://pan.baidu.com/s/1ZhK5TAt4H6BPRn4bDA1oXA">此链接</a>下载nfs服务器工具<br />
 提取码：Zero<br />
