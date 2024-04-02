@@ -29,3 +29,11 @@
 ## 实物图
 箭头所指位置是 **Pin1** 的引脚
 ![](./media/PIN.png)
+
+
+## 相关图纸
+硬件图纸可通过[百度网盘(提取码：Zero)](https://pan.baidu.com/s/1ZhK5TAt4H6BPRn4bDA1oXA)自行下载。<br />
+
+![](./media/hardware/1.png)
+
+![](./media/hardware/2.png)
