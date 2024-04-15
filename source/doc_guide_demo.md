@@ -4,7 +4,7 @@
 
 1.使用Type-C将爱芯派Zero与电脑连接，可通过两种方式进入终端
 	<p style="text-indent:2em;">a.通过串口直接进入</p>
-	<p style="text-indent:2em;">b.通过<a href="https://axera-pi-zero-docs-cn.readthedocs.io/zh-cn/latest/doc_guide_FAQ.html">修改IP</a>,使用网线将设备与电脑相连进入</p>
+	<p style="text-indent:2em;">b.通过<a href="https://axera-pi-zero-docs-cn.readthedocs.io/zh-cn/latest/doc_guide_faq.html">修改IP</a>,使用网线将设备与电脑相连进入</p>
 
 2.打开putty,输入设备对应串口/IP，点击Open<br />
 
