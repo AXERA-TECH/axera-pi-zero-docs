@@ -5,6 +5,7 @@
 1.使用Type-C将爱芯派Zero与电脑连接，可通过两种方式进入终端
 	<p style="text-indent:2em;">a.通过串口直接进入</p>
 	<p style="text-indent:2em;">b.通过<a href="https://axera-pi-zero-docs-cn.readthedocs.io/zh-cn/latest/doc_guide_faq.html">修改IP</a>,使用网线将设备与电脑相连进入</p>
+<font color="red"><b>若需要播放视频流，必须修改IP，才可查看</font></b>
 
 2.打开putty,输入设备对应串口/IP，点击Open<br />
 
@@ -16,7 +17,8 @@
 4.输入命令进入FRTDemo<br />
 ![](./media/demo/demo_1.jpg)
 
-5.输入命令开始启动Demo<br />
+5.输入命令开始启动Demo<font color="red">(-s后的参数为数字1)</font><br />
+
 ![](./media/demo/demo_2.jpg)
 
 6.打开网页,将运行内容中的URL输入到网址框中
