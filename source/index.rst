@@ -20,5 +20,6 @@ AXera-Pi Zero
   doc_guide_demo.md
   doc_guide_library.md
   doc_guide_lan.md
+  doc_guide_board.md
   doc_guide_faq.md
 
