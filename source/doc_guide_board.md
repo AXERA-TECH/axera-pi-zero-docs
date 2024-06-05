@@ -3,28 +3,111 @@
 AXera_Pi Zero增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD卡。<br />
 ![](./media/board/board_1.png)
 
-<font color="red"><b>在进行4G/WIFI模式切换时，需要通过网口/串口进入，此时usb只作供电功能，跳线帽切换时需在断电状态下进行。</font></b>
+## SD卡使用
+
+1.插入SD卡后，进入终端查看是否存在SD卡分区。<br />
+![](./media/board/SD/sd_1.png)
+
+2.进行SD卡的格式化。<br />
+![](./media/board/SD/sd_2.png)
+
+3.创建需要放置的文件夹。<br />
+![](./media/board/SD/sd_3.jpg)
+
+4.将SD卡挂载到创建的文件夹中。<br />
+![](./media/board/SD/sd_4.png)
+
+5.输入命令，查看是否挂载成功。<br />
+![](./media/board/SD/sd_5.jpg)
+
 
 ## 切换4G模式
 
-1.将主板的跳线帽置于WIFI端。(在进行烧录下载时，需把跳线帽置于TYPEC端)<br />
-![](./media/board/board_6.png)
+<font color="red"><b>在进行4G/WIFI模式切换时，需要通过网线/串口线连接进入，此时Type-C线只作供电功能，跳线帽切换时需在断电状态下进行。</font></b>
 
-2.将扩展板的跳线帽置于LET端，即为4G模式。<br />
-![](./media/board/board_7.png)
+1.连接网线和Type-C线，<a href="https://axera-pi-zero-docs-cn.readthedocs.io/zh-cn/latest/doc_guide_faq.html">配置设备IP</a>。
 
-2.进入设备终端，输入命令，切换到OTG。<br />
-![](./media/board/board_2.jpg)
+2.断开Type-C线，将主板的跳线帽置于WIFI端。(在进行烧录下载时，需把跳线帽置于TYPEC端)<br />
+![](./media/board/4G/board_6.png)
 
-3.输入命令，若出现以下图片所示情况，说明OTG切换成功。<br />
-![](./media/board/board_3.jpg)
+3.将扩展板的跳线帽置于LTE端，插入4G卡，切换成4G模式。<br />
+![](./media/board/4G/board_7.png)
 
-![](./media/board/board_4.jpg)
+4.连接Type-C线，打开putty，通过配置好的IP进入设备终端。<br />
+![](./media/board/4G/board_8.jpg)
 
-4.输入命令，通过移远拨号工具进行拨号。<br />
-![](./media/board/board_5.png)
+5.切换到OTG。<br />
+![](./media/board/4G/board_2.jpg)
 
-5.用usb0 ping外网验证4G卡是否能正常使用<br />
+5.输入命令，若出现以下图片所示情况，说明OTG切换成功。<br />
+![](./media/board/4G/board_3.jpg)
+
+![](./media/board/4G/board_4.jpg)
+
+6.通过移远拨号工具进行拨号(无需停止，回车进入下一步)。<br />
+![](./media/board/4G/board_5.png)
+
+7.验证4G卡是否能正常使用<br />
+![](./media/board/4G/board_9.jpg)
 
 ## 切换WIFI模式
+
+1.与切换4G模式的第1、2点相同。<br />
+
+2.将扩展板的跳线帽置于WIFI端，切换成WIFI模式。<br />
+![](./media/board/wifi/wifi_1.png)
+
+3.与切换4G模式的第4、5点相同。<br />
+
+4.下载WIFI驱动，需等待一段时间。<br />
+![](./media/board/wifi/wifi_2.jpg)
+
+5.输入命令，若出现以下图片所示情况，说明WIFI驱动下载成功。<br />
+![](./media/board/wifi/wifi_3.png)
+
+![](./media/board/wifi/wifi_4.jpg)
+
+6.手动拉起WIFI的网络接口。<br />
+![](./media/board/wifi/wifi_5.jpg)
+
+7.通过命令确认WIFI网络接口是否拉起成功。<br />
+![](./media/board/wifi/wifi_6.jpg)
+
+### WIFI的AP模式
+
+1.配置WIFI的hostapd。(WiFi名和密码可自行配置)<br />
+![](./media/board/wifi/AP/ap_1.png)
+
+2.启动hostapd。(有以下打印，说明启动成功)<br />
+![](./media/board/wifi/AP/ap_2.jpg)
+
+3.配置udhcpd.conf。(网段可自行配置)<br />
+![](./media/board/wifi/AP/ap_3.jpg)
+
+4.为wlan0分配IP地址，默认为网关地址。<br />
+![](./media/board/wifi/AP/ap_4.jpg)
+
+5.启动udchpcd程序。<br />
+![](./media/board/wifi/AP/ap_5.jpg)
+
+6.通过手机连接配置好的WIFI，验证是否成功。<br />
+
+
+### WIFI的STA模式
+
+1.配置wpa_supplicant.conf文件。<br />
+![](./media/board/wifi/STA/sta_1.jpg)
+
+2.在后台启动wpa_supplicant服务。<br />
+![](./media/board/wifi/STA/sta_2.jpg)
+
+3.扫描并获取周边可用wifi热点，确认需要连接的wifi热点在其中。<br />
+![](./media/board/wifi/STA/sta_3.jpg)
+
+4.通过命令自动获取wifi热点分发的IP地址。<br />
+![](./media/board/wifi/STA/sta_4.jpg)
+
+5.验证设备是否能上网。<br />
+![](./media/board/wifi/STA/sta_5.jpg)
+
 
