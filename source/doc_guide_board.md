@@ -3,6 +3,11 @@
 AXera_Pi Zero增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD卡。<br />
 ![](./media/board/board_1.png)
 
+<font size="5">使用不同的模式，天线安装位置也不同，具体的连接位置如图。</font><br />
+![](./media/board/board_2.jpg)
+
+![](./media/board/board_3.jpg)
+
 ## SD卡使用
 
 1.插入SD卡后，进入终端查看是否存在SD卡分区。<br />
@@ -20,6 +25,8 @@ AXera_Pi Zero增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD�
 5.输入命令，查看是否挂载成功。<br />
 ![](./media/board/SD/sd_5.jpg)
 
+6.如需挂载到其他位置，先卸载原来挂载位置后，按照第5步确认是否卸载成功，再从第1步开始操作，。<br />
+![](./media/board/SD/sd_6.png)
 
 ## 切换4G模式
 
@@ -73,6 +80,8 @@ AXera_Pi Zero增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD�
 7.通过命令确认WIFI网络接口是否拉起成功。<br />
 ![](./media/board/wifi/wifi_6.jpg)
 
+<font color="red"><b>在进行WIFI模式的选择时，只能选择其中一种模式，不支持两种模式共存。</font></b>
+
 ### WIFI的AP模式
 
 1.配置WIFI的hostapd。(WiFi名和密码可自行配置)<br />
@@ -87,7 +96,7 @@ AXera_Pi Zero增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD�
 4.为wlan0分配IP地址，默认为网关地址。<br />
 ![](./media/board/wifi/AP/ap_4.jpg)
 
-5.启动udchpcd程序。<br />
+5.启动udhcpd程序。<br />
 ![](./media/board/wifi/AP/ap_5.jpg)
 
 6.通过手机连接配置好的WIFI，验证是否成功。<br />
