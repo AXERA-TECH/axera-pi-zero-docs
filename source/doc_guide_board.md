@@ -35,10 +35,10 @@ AXera_Pi Zero增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD�
 1.连接网线和Type-C线，<a href="https://axera-pi-zero-docs-cn.readthedocs.io/zh-cn/latest/doc_guide_faq.html">配置设备IP</a>。
 
 2.断开Type-C线，将主板的跳线帽置于WIFI端。(在进行烧录下载时，需把跳线帽置于TYPEC端)<br />
-![](./media/board/4G/board_6.png)
+![](./media/board/4G/board_6.jpg)
 
 3.将扩展板的跳线帽置于LTE端，插入4G卡，切换成4G模式。<br />
-![](./media/board/4G/board_7.png)
+![](./media/board/4G/board_7.jpg)
 
 4.连接Type-C线，打开putty，通过配置好的IP进入设备终端。<br />
 ![](./media/board/4G/board_8.jpg)
@@ -62,7 +62,7 @@ AXera_Pi Zero增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD�
 1.与切换4G模式的第1、2点相同。<br />
 
 2.将扩展板的跳线帽置于WIFI端，切换成WIFI模式。<br />
-![](./media/board/wifi/wifi_1.png)
+![](./media/board/wifi/wifi_1.jpg)
 
 3.与切换4G模式的第4、5点相同。<br />
 
@@ -88,7 +88,7 @@ AXera_Pi Zero增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD�
 ![](./media/board/wifi/AP/ap_1.png)
 
 2.启动hostapd。(有以下打印，说明启动成功)<br />
-![](./media/board/wifi/AP/ap_2.jpg)
+![](./media/board/wifi/AP/ap_2.png)
 
 3.配置udhcpd.conf。(网段可自行配置)<br />
 ![](./media/board/wifi/AP/ap_3.jpg)
@@ -108,7 +108,7 @@ AXera_Pi Zero增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD�
 ![](./media/board/wifi/STA/sta_1.jpg)
 
 2.在后台启动wpa_supplicant服务。<br />
-![](./media/board/wifi/STA/sta_2.jpg)
+![](./media/board/wifi/STA/sta_2.png)
 
 3.扫描并获取周边可用wifi热点，确认需要连接的wifi热点在其中。<br />
 ![](./media/board/wifi/STA/sta_3.jpg)
