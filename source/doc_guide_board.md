@@ -1,6 +1,6 @@
 # 扩展板的使用说明
 
-AXera_Pi Zero增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD卡。<br />
+**AXera_Pi Zero**增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD卡。<br />
 ![](./media/board/board_1.png)
 
 <font size="5">使用不同的模式，天线安装位置也不同，具体的连接位置如图。</font><br />
@@ -25,7 +25,7 @@ AXera_Pi Zero增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD�
 5.输入命令，查看是否挂载成功。<br />
 ![](./media/board/SD/sd_5.jpg)
 
-6.如需挂载到其他位置，先卸载原来挂载位置后，按照第5步确认是否卸载成功，再从第1步开始操作，。<br />
+6.如需挂载到其他位置，先卸载原来挂载位置后，按照第5步确认是否卸载成功，再从第1步开始操作。<br />
 ![](./media/board/SD/sd_6.png)
 
 ## 切换4G模式
@@ -46,15 +46,15 @@ AXera_Pi Zero增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD�
 5.切换到OTG。<br />
 ![](./media/board/4G/board_2.jpg)
 
-5.输入命令，若出现以下图片所示情况，说明OTG切换成功。<br />
+6.输入命令，若出现以下图片所示情况，说明OTG切换成功。<br />
 ![](./media/board/4G/board_3.jpg)
 
 ![](./media/board/4G/board_4.jpg)
 
-6.通过移远拨号工具进行拨号(无需停止，回车进入下一步)。<br />
+7.通过拨号工具进行拨号(无需停止，回车进入下一步)。<br />
 ![](./media/board/4G/board_5.png)
 
-7.验证4G卡是否能正常使用<br />
+8.验证4G卡是否能正常使用。<br />
 ![](./media/board/4G/board_9.jpg)
 
 ## 切换WIFI模式
@@ -84,7 +84,7 @@ AXera_Pi Zero增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD�
 
 ### WIFI的AP模式
 
-1.配置WIFI的hostapd。(WiFi名和密码可自行配置)<br />
+1.配置WIFI的hostapd.conf文件。(WiFi名和密码可自行配置)<br />
 ![](./media/board/wifi/AP/ap_1.png)
 
 2.启动hostapd。(有以下打印，说明启动成功)<br />
@@ -113,7 +113,7 @@ AXera_Pi Zero增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD�
 3.扫描并获取周边可用wifi热点，确认需要连接的wifi热点在其中。<br />
 ![](./media/board/wifi/STA/sta_3.jpg)
 
-4.通过命令自动获取wifi热点分发的IP地址。<br />
+4.通过命令自动获取wifi热点分配的IP地址。<br />
 ![](./media/board/wifi/STA/sta_4.jpg)
 
 5.验证设备是否能上网。<br />
