@@ -7,6 +7,10 @@
 爱芯派 Zero 提供稳定易用的 SDK 软件开发包，方便用户低成本评估、
 二次开发和快速量产。帮助用户在智能家居应用和其他 AIOT 项目中发挥更大的价值。
 
+已支持 Sensor
+- **SC450AI**
+- **SC200AI**
+
 ![](./media/10.png)
 
 ## 规格
@@ -47,6 +51,28 @@
 <li>丰富扩展接口;</li>
 <li>软硬件资料丰富，开发者社区活跃。</li>
 </ul>
+
+## 资料汇总
+
+### 网盘资料
+
+- 网盘资料包含 **硬件参考设计**、**预编译固件(*.axp)**、**固件烧写软件(AXDL)**、**相关驱动** 等文件；
+- [百度网盘(提取码：Zero)](https://pan.baidu.com/s/1ZhK5TAt4H6BPRn4bDA1oXA)
+
+### 社区资料
+
+- [应用层示例](https://github.com/AXERA-TECH/ax620q_bsp_sdk/tree/zero)，包含以下内容
+
+    - FRTDEMO，完整的IPC应用软件，实现 Web 管理、主副码流控制、RTSP拉流、黑光全彩自动切换(AI ISP)、智能算法(SKEL)、JPEG抓拍、视频录制保存等功能及其源码；
+    - Samples，各功能模块单一示例，包含了 VIN、VO、VENC、VDEC、SKEL、NPU、VIN_IVPS_ENGINE_VENC_RTSP 等等。
+
+- [NPU示例](https://github.com/AXERA-TECH/ax-samples)，包含以下内容
+
+    - 主流的视觉类深度学习算法模型示例，包含了 分类、检测、人体关键点、实例分割、单目深度估计 等等。
+
+- [QQ技术交流群]
+
+    - 139953715
 
 ## 应用场景
 <ul>
