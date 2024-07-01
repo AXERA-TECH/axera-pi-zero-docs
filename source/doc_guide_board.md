@@ -66,18 +66,21 @@
 
 3.与切换4G模式的第4、5点相同。<br />
 
-4.下载WIFI驱动，需等待一段时间。<br />
+4.手动拉起WIFI的GPIO口。<br />
+![](./media/board/wifi/wifi_8.png)
+
+5.下载WIFI驱动，需等待一段时间。<br />
 ![](./media/board/wifi/wifi_2.jpg)
 
-5.输入命令，若出现以下图片所示情况，说明WIFI驱动下载成功。<br />
+6.输入命令，若出现以下图片所示情况，说明WIFI驱动下载成功。<br />
 ![](./media/board/wifi/wifi_3.png)
 
 ![](./media/board/wifi/wifi_4.jpg)
 
-6.手动拉起WIFI的网络接口。<br />
+7.手动拉起WIFI的网络接口。<br />
 ![](./media/board/wifi/wifi_5.jpg)
 
-7.通过命令确认WIFI网络接口是否拉起成功。<br />
+8.通过命令确认WIFI网络接口是否拉起成功。<br />
 ![](./media/board/wifi/wifi_6.jpg)
 
 <font color="red"><b>在进行WIFI模式的选择时，只能选择其中一种模式，不支持两种模式共存。</font></b>
