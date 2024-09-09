@@ -17,9 +17,12 @@
 4.输入命令进入FRTDemo<br />
 ![](./media/demo/demo_1.jpg)
 
-5.输入命令开始启动Demo<font color="red">(-s后的参数为数字1)</font><br />
-
+5.输入命令开始启动Demo<font color="red">(-s后的参数为数字)</font><br />
+此命令运用于SC450AI：
 ![](./media/demo/demo_2.jpg)
+
+此命令运用于SC200AI：
+![](./media/demo/demo_5.png)
 
 6.打开网页,将运行内容中的URL输入到网址框中
 ![](./media/demo/demo_3.jpg)

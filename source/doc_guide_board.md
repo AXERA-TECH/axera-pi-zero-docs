@@ -3,6 +3,9 @@
 **AXera_Pi Zero**增加4G无线通讯板（简称：扩展板），支持4G/WIFI/SD卡。<br />
 ![](./media/board/board_1.png)
 
+主板与拓展板连接，如图所示。
+![](./media/board/board_4.png)
+
 <font size="5">使用不同的模式，天线安装位置也不同，具体的连接位置如图。</font><br />
 ![](./media/board/board_2.jpg)
 
@@ -75,7 +78,7 @@
 6.输入命令，若出现以下图片所示情况，说明WIFI驱动下载成功。<br />
 ![](./media/board/wifi/wifi_3.png)
 
-![](./media/board/wifi/wifi_4.jpg)
+![](./media/board/wifi/wifi_4.png)
 
 7.手动拉起WIFI的网络接口。<br />
 ![](./media/board/wifi/wifi_5.jpg)
