@@ -9,7 +9,7 @@
 ![](./media/FAQ/FAQ_7.png)
 
 3.打开putty，输入设备所对应的串口,点击Open<br />
-![](./media/FAQ/FAQ_2.jpg)
+![](./media/FAQ/FAQ_2.png)
 
 4.进入后输入用户密码，进入终端(密码不作显示）<br />
 用户名：root<br />
